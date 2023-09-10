@@ -9,7 +9,7 @@ Simple React table with feature to freeze rows and columns. The component is bui
 - Responsive table dimensions (wrap it in any size container and it will fill that container)
 - Dynamic row height & column width (no need to specify fixed width/height in pixels)
 - Table rows/columns resize as content resizes
-- Custom cells (just make sure your custom cell has `display: table-cell` and the css selector `.sticky-table-cell`)
+- Custom cells
 - Multiple tables per page
 - Scrollbars that are smooth and visible at all times
 - Native scrolling
