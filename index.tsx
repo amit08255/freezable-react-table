@@ -29,8 +29,9 @@ const Table = styled('table').attrs(() => ({
 
 Table.displayName = 'Table';
 
-const Cell = styled('td').attrs(() => ({
+const Cell = styled('td').attrs((props) => ({
     className: 'sticky-table-cell',
+    ...props,
 }))`
   box-sizing: border-box;
   padding: 0.5rem 0.75rem;
@@ -39,8 +40,9 @@ const Cell = styled('td').attrs(() => ({
 
 Cell.displayName = 'Cell';
 
-const Row = styled('tr').attrs(() => ({
+const Row = styled('tr').attrs((props) => ({
     className: 'sticky-table-row',
+    ...props,
 }))`
 `;
 
